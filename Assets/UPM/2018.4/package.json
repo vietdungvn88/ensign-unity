@@ -1,0 +1,22 @@
+{
+    "name": "com.ensign.unity",
+    "displayName": "Ensign Library",
+    "version": "1.0.0",
+    "unity": "2018.4",
+    "description": "Ensign Library Package for Unity\n\nThe 'Ensign SDK for Unity' library, written on dotnet Standard 2.0 and Dotnet Core 2.0, is part of the 'Ensign Library'. With the goal of developing applications using C# for the purpose of building applications, Games, Website and both Server API or Socket Server quickly with the most basic features, with fast deployment, with The structure is simple and uniform in all projects.\n\nEmail support: vietdungvn88@gmail.com\n\nSee more document at here: https://bit.ly/ensigndocument",
+    "keywords": [
+        "unity",
+        "ensign"
+    ],
+    "author": {
+        "name": "Dung Nguyen",
+        "email": "vietdungvn88@gmail.com",
+        "url": "http://dungnv.info"
+    },
+    "category": "Ensign",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vietdungvn88/ensign-unity.git"
+    },
+    "dependencies": {}
+}

@@ -1,0 +1,701 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 639610786, guid: 9195dc42b802fc843ada5bdc84683499, type: 3}
+  m_Name: AssetManager
+  m_EditorClassIdentifier: 
+  mTables:
+  - tableName: Characters
+    createdId: 7
+    column:
+    - name: Key
+      type: 0
+    - name: Name
+      type: 0
+    - name: Prefab
+      type: 24
+    realDatas:
+    - rowId: 1
+      columnName: Name
+      data: Character Female
+      dataObject: {fileID: 0}
+    - rowId: 1
+      columnName: Prefab
+      data: 
+      dataObject: {fileID: 8563317556807317460, guid: 71058352c489e7e449bb9096b5e03a39,
+        type: 3}
+    - rowId: 1
+      columnName: Key
+      data: Character Female
+      dataObject: {fileID: 0}
+    - rowId: 2
+      columnName: Name
+      data: Character Male
+      dataObject: {fileID: 0}
+    - rowId: 2
+      columnName: Prefab
+      data: 
+      dataObject: {fileID: 5762769682415782303, guid: 3214fac6c293a2449bc040115764cfe7,
+        type: 3}
+    - rowId: 2
+      columnName: Key
+      data: Character Male
+      dataObject: {fileID: 0}
+    - rowId: 3
+      columnName: Key
+      data: KAN
+      dataObject: {fileID: 0}
+    - rowId: 3
+      columnName: Name
+      data: KAN
+      dataObject: {fileID: 0}
+    - rowId: 3
+      columnName: Prefab
+      data: 
+      dataObject: {fileID: 8563317556807317460, guid: 8bbfb19d30e21694f9cad82774017f8a,
+        type: 3}
+    - rowId: 4
+      columnName: Key
+      data: KYO
+      dataObject: {fileID: 0}
+    - rowId: 4
+      columnName: Name
+      data: KYO
+      dataObject: {fileID: 0}
+    - rowId: 4
+      columnName: Prefab
+      data: 
+      dataObject: {fileID: 8563317556807317460, guid: d8f3409a14ec7664b8414cbc18f5f939,
+        type: 3}
+    - rowId: 5
+      columnName: Key
+      data: NAM
+      dataObject: {fileID: 0}
+    - rowId: 5
+      columnName: Name
+      data: NAM
+      dataObject: {fileID: 0}
+    - rowId: 5
+      columnName: Prefab
+      data: 
+      dataObject: {fileID: 8563317556807317460, guid: 2a4b8c8512fc9ea4284f4eba7dc66d31,
+        type: 3}
+    - rowId: 6
+      columnName: Key
+      data: RIN
+      dataObject: {fileID: 0}
+    - rowId: 6
+      columnName: Name
+      data: RIN
+      dataObject: {fileID: 0}
+    - rowId: 6
+      columnName: Prefab
+      data: 
+      dataObject: {fileID: 8563317556807317460, guid: aa8e0ced951610d41b79e7f0b8d7dfe7,
+        type: 3}
+    - rowId: 7
+      columnName: Key
+      data: SIO
+      dataObject: {fileID: 0}
+    - rowId: 7
+      columnName: Name
+      data: SIO
+      dataObject: {fileID: 0}
+    - rowId: 7
+      columnName: Prefab
+      data: 
+      dataObject: {fileID: 8563317556807317460, guid: 37d53d906f97355479c90dcf9453c3ba,
+        type: 3}
+  - tableName: Objects
+    createdId: 2
+    column:
+    - name: Key
+      type: 0
+    - name: Name
+      type: 0
+    - name: Prefab
+      type: 24
+    realDatas:
+    - rowId: 1
+      columnName: Key
+      data: BedRoom
+      dataObject: {fileID: 0}
+    - rowId: 1
+      columnName: Name
+      data: BedRoom
+      dataObject: {fileID: 0}
+    - rowId: 1
+      columnName: Prefab
+      data: 
+      dataObject: {fileID: 1790252555556773463, guid: 8719396d681b31e44ab42e71d6ad02ba,
+        type: 3}
+    - rowId: 2
+      columnName: Key
+      data: Garden
+      dataObject: {fileID: 0}
+    - rowId: 2
+      columnName: Name
+      data: Garden
+      dataObject: {fileID: 0}
+    - rowId: 2
+      columnName: Prefab
+      data: 
+      dataObject: {fileID: 1790252555556771856, guid: 013c6e211254d7343848d7c626849d6f,
+        type: 3}
+  - tableName: Audios
+    createdId: 2
+    column:
+    - name: Key
+      type: 0
+    - name: Audio
+      type: 20
+    - name: Type
+      type: 1
+    - name: LoopTime
+      type: 1
+    - name: AutoPlay
+      type: 3
+    realDatas:
+    - rowId: 1
+      columnName: Key
+      data: Hi Player
+      dataObject: {fileID: 0}
+    - rowId: 1
+      columnName: Audio
+      data: 
+      dataObject: {fileID: 0}
+    - rowId: 1
+      columnName: Type
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 1
+      columnName: LoopTime
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 1
+      columnName: AutoPlay
+      data: False
+      dataObject: {fileID: 0}
+    - rowId: 2
+      columnName: Key
+      data: Good Morning
+      dataObject: {fileID: 0}
+    - rowId: 2
+      columnName: Audio
+      data: 
+      dataObject: {fileID: 0}
+    - rowId: 2
+      columnName: Type
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 2
+      columnName: LoopTime
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 2
+      columnName: AutoPlay
+      data: False
+      dataObject: {fileID: 0}
+  - tableName: Actions
+    createdId: 6
+    column:
+    - name: Name
+      type: 0
+    - name: Description
+      type: 0
+    - name: Params
+      type: 1
+    realDatas:
+    - rowId: 1
+      columnName: Name
+      data: Next
+      dataObject: {fileID: 0}
+    - rowId: 1
+      columnName: Description
+      data: "X\u1EED l\xFD step ti\u1EBFp"
+      dataObject: {fileID: 0}
+    - rowId: 2
+      columnName: Name
+      data: Jump
+      dataObject: {fileID: 0}
+    - rowId: 2
+      columnName: Description
+      data: "Jump \u0111\u1EBFn label n\xE0o \u0111\xF3 n\xE0o [Next]"
+      dataObject: {fileID: 0}
+    - rowId: 2
+      columnName: Params
+      data: 1
+      dataObject: {fileID: 0}
+    - rowId: 3
+      columnName: Name
+      data: Goto
+      dataObject: {fileID: 0}
+    - rowId: 3
+      columnName: Description
+      data: "M\u1EDF m\u1ED9t scenario kh\xE1c"
+      dataObject: {fileID: 0}
+    - rowId: 3
+      columnName: Params
+      data: 1
+      dataObject: {fileID: 0}
+    - rowId: 4
+      columnName: Name
+      data: End
+      dataObject: {fileID: 0}
+    - rowId: 4
+      columnName: Description
+      data: "K\u1EBFt th\xFAc scenario hi\u1EC7n t\u1EA1i"
+      dataObject: {fileID: 0}
+    - rowId: 5
+      columnName: Name
+      data: OpenURL
+      dataObject: {fileID: 0}
+    - rowId: 5
+      columnName: Description
+      data: "M\u1EDF m\u1ED9t link URL"
+      dataObject: {fileID: 0}
+    - rowId: 5
+      columnName: Params
+      data: 1
+      dataObject: {fileID: 0}
+    - rowId: 6
+      columnName: Name
+      data: Value
+      dataObject: {fileID: 0}
+    - rowId: 6
+      columnName: Description
+      data: "Tr\u1EA3 v\u1EC1 m\u1ED9t gi\xE1 tr\u1ECB b\u1EA5t g\xEC v\xE0 th\u1EF1c
+        thi [Next]"
+      dataObject: {fileID: 0}
+    - rowId: 6
+      columnName: Params
+      data: 1
+      dataObject: {fileID: 0}
+  - tableName: Commands
+    createdId: 34
+    column:
+    - name: Name
+      type: 0
+    - name: Description
+      type: 0
+    - name: Params
+      type: 1
+    realDatas:
+    - rowId: 1
+      columnName: Name
+      data: SetBlendShape
+      dataObject: {fileID: 0}
+    - rowId: 1
+      columnName: Description
+      data: " \u30D6\u30EC\u30F3\u30C9\u30B7\u30A7\u30A4\u30D7\u5909\u66F4"
+      dataObject: {fileID: 0}
+    - rowId: 1
+      columnName: Params
+      data: 1
+      dataObject: {fileID: 0}
+    - rowId: 2
+      columnName: Name
+      data: PlayAnim
+      dataObject: {fileID: 0}
+    - rowId: 2
+      columnName: Description
+      data: "Animation\u958B\u59CB"
+      dataObject: {fileID: 0}
+    - rowId: 2
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 3
+      columnName: Name
+      data: Text
+      dataObject: {fileID: 0}
+    - rowId: 3
+      columnName: Description
+      data: "\u30BB\u30EA\u30D5\u8868\u793A"
+      dataObject: {fileID: 0}
+    - rowId: 3
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 4
+      columnName: Name
+      data: WaitTime
+      dataObject: {fileID: 0}
+    - rowId: 4
+      columnName: Description
+      data: "\u6B21\u306E\u30B3\u30DE\u30F3\u30C9\u5B9F\u884C"
+      dataObject: {fileID: 0}
+    - rowId: 4
+      columnName: Params
+      data: 1
+      dataObject: {fileID: 0}
+    - rowId: 5
+      columnName: Name
+      data: WaitOption
+      dataObject: {fileID: 0}
+    - rowId: 5
+      columnName: Description
+      data: "\u30E6\u30FC\u30B6\u30FC\u304C\u9078\u629E\u3059\u308B\u30AA\u30D7\u30B7\u30E7\u30F3\u3092\u8868\u793A "
+      dataObject: {fileID: 0}
+    - rowId: 5
+      columnName: Params
+      data: 7
+      dataObject: {fileID: 0}
+    - rowId: 6
+      columnName: Name
+      data: WaitInput
+      dataObject: {fileID: 0}
+    - rowId: 6
+      columnName: Description
+      data: "\u30E6\u30FC\u30B6\u30FC\u304C\u5165\u529B\u3059\u308B\u30C6\u30AD\u30B9\u30C8\u306E\u5165\u529B\u6B04\u3092\u8868\u793A "
+      dataObject: {fileID: 0}
+    - rowId: 6
+      columnName: Params
+      data: 7
+      dataObject: {fileID: 0}
+    - rowId: 7
+      columnName: Name
+      data: Destroy
+      dataObject: {fileID: 0}
+    - rowId: 7
+      columnName: Description
+      data: "\u30AA\u30D7\u30B8\u30A7\u30AF\u30C8\u3092\u58CA\u6EC5"
+      dataObject: {fileID: 0}
+    - rowId: 7
+      columnName: Params
+      data: 2
+      dataObject: {fileID: 0}
+    - rowId: 8
+      columnName: Name
+      data: Init
+      dataObject: {fileID: 0}
+    - rowId: 8
+      columnName: Description
+      data: "runtime\u4E2D2D/3D\u30AA\u30D7\u30B8\u30A7\u30AF\u30C8\u3092\u4F5C\u6210"
+      dataObject: {fileID: 0}
+    - rowId: 8
+      columnName: Params
+      data: 7
+      dataObject: {fileID: 0}
+    - rowId: 9
+      columnName: Name
+      data: Setup
+      dataObject: {fileID: 0}
+    - rowId: 9
+      columnName: Description
+      data: "\u30AA\u30D7\u30B8\u30A7\u30AF\u30C8\u8A2D\u5B9A"
+      dataObject: {fileID: 0}
+    - rowId: 9
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 10
+      columnName: Name
+      data: Execute
+      dataObject: {fileID: 0}
+    - rowId: 10
+      columnName: Description
+      data: "\u30AA\u30D7\u30B8\u30A7\u30AF\u30C8\u306Emethod code\u3092\u5B9F\u65BD"
+      dataObject: {fileID: 0}
+    - rowId: 10
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 11
+      columnName: Name
+      data: PlaySoundEffect
+      dataObject: {fileID: 0}
+    - rowId: 11
+      columnName: Description
+      data: "\u30AA\u30D7\u30B8\u30A7\u30AF\u30C8\u306E\u97F3\u58F0\u3092\u518D\u751F"
+      dataObject: {fileID: 0}
+    - rowId: 11
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 12
+      columnName: Name
+      data: StopSoundEffect
+      dataObject: {fileID: 0}
+    - rowId: 12
+      columnName: Description
+      data: "\u30AA\u30D7\u30B8\u30A7\u30AF\u30C8\u306E\u97F3\u58F0\u3092\u518D\u751F\u4E2D\u6B62"
+      dataObject: {fileID: 0}
+    - rowId: 12
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 13
+      columnName: Name
+      data: PlaySoundBGM
+      dataObject: {fileID: 0}
+    - rowId: 13
+      columnName: Description
+      data: "\u30AA\u30D7\u30B8\u30A7\u30AF\u30C8\u306EBGM\u97F3\u58F0\u3092\u518D\u5EA6"
+      dataObject: {fileID: 0}
+    - rowId: 13
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 14
+      columnName: Name
+      data: StopSoundBGM
+      dataObject: {fileID: 0}
+    - rowId: 14
+      columnName: Description
+      data: "\u30AA\u30D7\u30B8\u30A7\u30AF\u30C8\u306EBGM\u97F3\u58F0\u3092\u518D\u5EA6\u4E2D\u6B62"
+      dataObject: {fileID: 0}
+    - rowId: 14
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 15
+      columnName: Name
+      data: SetActive
+      dataObject: {fileID: 0}
+    - rowId: 15
+      columnName: Description
+      data: "\u30D3\u30E5\u30FC\u306B\u30AA\u30D7\u30B8\u30A7\u30AF\u30C8\u306E\u8868\u793A\u3092\u8A2D\u5B9A"
+      dataObject: {fileID: 0}
+    - rowId: 15
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 16
+      columnName: Name
+      data: SetPosition
+      dataObject: {fileID: 0}
+    - rowId: 16
+      columnName: Description
+      data: "\u80CC\u666F\u306B\u30AA\u30D7\u30B8\u30A7\u30AF\u30C8\u306E\u4F4D\u7F6E\u3092\u6307\u5B9A"
+      dataObject: {fileID: 0}
+    - rowId: 16
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 17
+      columnName: Name
+      data: SetRotate
+      dataObject: {fileID: 0}
+    - rowId: 17
+      columnName: Description
+      data: "\u80CC\u666F\u306B\u30AA\u30D7\u30B8\u30A7\u30AF\u30C8\u306E\u30A2\u30F3\u30B0\u30EB\u3092\u6307\u5B9A"
+      dataObject: {fileID: 0}
+    - rowId: 17
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 18
+      columnName: Name
+      data: SetScale
+      dataObject: {fileID: 0}
+    - rowId: 18
+      columnName: Description
+      data: "\u80CC\u666F\u306B\u30AA\u30D7\u30B8\u30A7\u30AF\u30C8\u306E\u30B5\u30A4\u30BA\u3092\u6307\u5B9A"
+      dataObject: {fileID: 0}
+    - rowId: 18
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 19
+      columnName: Name
+      data: Tween
+      dataObject: {fileID: 0}
+    - rowId: 19
+      columnName: Description
+      data: "Tween\u3067\u52D5\u4F5C\u3092\u5B9F\u884C"
+      dataObject: {fileID: 0}
+    - rowId: 19
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 20
+      columnName: Name
+      data: MoveTo
+      dataObject: {fileID: 0}
+    - rowId: 20
+      columnName: Description
+      data: "\u30AA\u30D7\u30B8\u30A7\u30AF\u30C8\u3092\u79FB\u52D5"
+      dataObject: {fileID: 0}
+    - rowId: 20
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 21
+      columnName: Name
+      data: MoveTarget
+      dataObject: {fileID: 0}
+    - rowId: 21
+      columnName: Description
+      data: "\u4ED6\u306E\u30AA\u30D7\u30B8\u30A7\u30AF\u30C8\u306B\u30AA\u30D7\u30B8\u30A7\u30AF\u30C8\u3092\u79FB\u52D5"
+      dataObject: {fileID: 0}
+    - rowId: 21
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 22
+      columnName: Name
+      data: LookTo
+      dataObject: {fileID: 0}
+    - rowId: 22
+      columnName: Description
+      data: "\u30AA\u30D7\u30B8\u30A7\u30AF\u30C8\u306E\u76EE\u7DDA\u3092\u6307\u5B9A"
+      dataObject: {fileID: 0}
+    - rowId: 22
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 23
+      columnName: Name
+      data: LookTarget
+      dataObject: {fileID: 0}
+    - rowId: 23
+      columnName: Description
+      data: "\u4ED6\u306E\u30AA\u30D7\u30B8\u30A7\u30AF\u30C8\u306B\u30AA\u30D7\u30B8\u30A7\u30AF\u30C8\u3092\u5411\u3051"
+      dataObject: {fileID: 0}
+    - rowId: 23
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 24
+      columnName: Name
+      data: LookCharacter
+      dataObject: {fileID: 0}
+    - rowId: 24
+      columnName: Description
+      data: "\u4ED6\u306E\u30AD\u30E3\u30E9\u30AF\u30BF\u30FC\u5411\u3051\u76EE\u7DDA\u79FB\u52D5\u3059\u308B"
+      dataObject: {fileID: 0}
+    - rowId: 24
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 25
+      columnName: Name
+      data: CameraLook
+      dataObject: {fileID: 0}
+    - rowId: 25
+      columnName: Description
+      data: "\u30AB\u30E1\u30E9\u30A2\u30F3\u30B0\u30EB\u3092\u5236\u5FA1"
+      dataObject: {fileID: 0}
+    - rowId: 25
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 26
+      columnName: Name
+      data: CameraLookObject
+      dataObject: {fileID: 0}
+    - rowId: 26
+      columnName: Description
+      data: "\u30AA\u30D7\u30B8\u30A7\u30AF\u30C8\u5411\u3051\u30AB\u30E1\u30E9\u30A2\u30F3\u30B0\u30EB\u306E\u4F4D\u7F6E\u3092\u5236\u5FA1"
+      dataObject: {fileID: 0}
+    - rowId: 26
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 27
+      columnName: Name
+      data: CameraZoom
+      dataObject: {fileID: 0}
+    - rowId: 27
+      columnName: Description
+      data: "\u30AB\u30E1\u30E9\u30BA\u30FC\u30E0\u3092\u5236\u5FA1"
+      dataObject: {fileID: 0}
+    - rowId: 27
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 28
+      columnName: Name
+      data: CameraMove
+      dataObject: {fileID: 0}
+    - rowId: 28
+      columnName: Description
+      data: "\u30AB\u30E1\u30E9\u79FB\u52D5"
+      dataObject: {fileID: 0}
+    - rowId: 28
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 29
+      columnName: Name
+      data: CameraBlur
+      dataObject: {fileID: 0}
+    - rowId: 29
+      columnName: Description
+      data: "\u30AB\u30E1\u30E9\u306E\u30E2\u30FC\u30B7\u30E7\u30F3\u30D6\u30E9\u3092\u5B9F\u65BD"
+      dataObject: {fileID: 0}
+    - rowId: 29
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 30
+      columnName: Name
+      data: CameraFade
+      dataObject: {fileID: 0}
+    - rowId: 30
+      columnName: Description
+      data: "T\u1EA1o hi\u1EC7u \u1EE9ng fade tr\xEAn camera"
+      dataObject: {fileID: 0}
+    - rowId: 30
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 31
+      columnName: Name
+      data: GuiActive
+      dataObject: {fileID: 0}
+    - rowId: 31
+      columnName: Description
+      data: "GUI\u8868\u793AON/OFF"
+      dataObject: {fileID: 0}
+    - rowId: 31
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 32
+      columnName: Name
+      data: SetLighting
+      dataObject: {fileID: 0}
+    - rowId: 32
+      columnName: Description
+      data: "\u80CC\u666F\u306E\u8F1D\u5EA6"
+      dataObject: {fileID: 0}
+    - rowId: 32
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 33
+      columnName: Name
+      data: StartScenario
+      dataObject: {fileID: 0}
+    - rowId: 33
+      columnName: Description
+      data: "\u30B7\u30CA\u30EA\u30AA\u958B\u59CB"
+      dataObject: {fileID: 0}
+    - rowId: 33
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+    - rowId: 34
+      columnName: Name
+      data: EndScenario
+      dataObject: {fileID: 0}
+    - rowId: 34
+      columnName: Description
+      data: "\u30B7\u30CA\u30EA\u30AA\u7D42\u4E86"
+      dataObject: {fileID: 0}
+    - rowId: 34
+      columnName: Params
+      data: 0
+      dataObject: {fileID: 0}
+  _generatePath: Visual Novels Creator/Scripts/DataModel/AssetEntites
+  _namespaceModel: Ensign.VNC
